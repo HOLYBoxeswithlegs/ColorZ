@@ -30,8 +30,8 @@ core.register_node(":colorz:grass", {
 core.register_node(":colorz:glass", {
     order = 3,
     description = "Glass",
-    drawtype = "glasslike",
-    tiles = { "glass.png" },
+    drawtype = "glasslike_framed_optional",--conec
+    tiles = {"glass.png", "glassdet.png"},
     groups = { crumbly=1, cracky=3 },
     paramtype = "light",
     use_texture_alpha = true,
